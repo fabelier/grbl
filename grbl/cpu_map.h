@@ -37,6 +37,10 @@
   #include "cpu_map/cpu_map_atmega2560.h"
 #endif
 
+#ifdef CPU_MAP_ATMEGA2560_RAMPS14 // (Arduino Mega 2560 + RAMP 1.4) Working @K4ngoo
+  #include "cpu_map/cpu_map_atmega2560_RAMPS14.h"
+#endif
+
 /* 
 #ifdef CPU_MAP_CUSTOM_PROC
   // For a custom pin map or different processor, copy and edit one of the available cpu

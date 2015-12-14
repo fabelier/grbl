@@ -88,4 +88,9 @@
   #include "defaults/defaults_simulator.h"
 #endif
 
+#ifdef DEFAULTS_CYCLONEPCB20
+  // Settings only for Cyclone PCB Factory (https://github.com/carlosgs/Cyclone-PCB-Factory/)
+  #include "defaults/defaults_cyclonepcbfactory20.h"
+#endif
+
 #endif
